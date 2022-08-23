@@ -4,7 +4,6 @@ shap
 numpy
 pandas
 sklearn
-tensorflow
 seaborn
 focal_loss
 keras
