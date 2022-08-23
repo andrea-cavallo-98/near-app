@@ -8,5 +8,4 @@ tensorflow
 seaborn
 focal_loss
 keras
-copy
 fpdf
