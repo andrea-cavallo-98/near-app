@@ -1,0 +1,78 @@
+/* Scrollbar */
+#app-page-content ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    background-color: #f6f6f6; /* Change in individual app stylesheet */
+}
+
+#app-page-content ::-webkit-scrollbar-thumb {
+    width: 2px;
+    border-radius: 15px;
+    padding-right: 5px;
+    background-color: #3D4F58; /* Change in individual app stylesheet */
+}
+
+/*Markdown*/
+.markdown-style{
+border-left:5px solid #3D4F58;
+padding-left: 5px
+
+}
+
+/*Formula*/
+.formula-style{
+border-left: 5px solid #3D4F58;
+padding-left: 5px
+font-size: 6rem; 
+line-height: 1.5;  
+color: #3D4F58; 
+font-weight:400;
+
+}
+
+/* Slider */
+.rc-slider-track {
+  background-color: #3D4F58;
+}
+
+
+.rc-slider-dot-active {  
+  border-color: #3D4F58;
+  border: solid 2px #3D4F58;
+}
+
+
+.rc-slider-handle {
+  background-color: #FFFFFF;
+  border-color: #3D4F58;
+}
+
+
+.rc-slider-handle:hover {
+  border-color: #648290;
+  border: solid 2px #648290;
+}
+
+.rc-slider-handle-active:active {
+  border-color: #6F8D9B;
+  border: solid 2px #6F8D9B;
+}
+
+
+.button {
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: solid 1.5px #3D4F58;
+    color: #3D4F58;
+
+}
+
+/*
+.checklist-style{
+	background-color: red;
+}
+
+input[type=checkbox] {
+    visibility: hidden;
+}
