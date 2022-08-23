@@ -6,6 +6,5 @@ pandas
 sklearn
 seaborn
 focal_loss
-keras
 fpdf
 tensorflow-cpu
