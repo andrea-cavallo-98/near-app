@@ -1,6 +1,5 @@
 gunicorn
 plotly
-math
 shap
 numpy
 pandas
