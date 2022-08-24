@@ -50,8 +50,6 @@ from sklearn import metrics
 
 import pickle 
 
-from focal_loss import BinaryFocalLoss
-
 from sklearn.metrics import accuracy_score, f1_score
 
 from copy import deepcopy
