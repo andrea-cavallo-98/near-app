@@ -2490,6 +2490,7 @@ aboutPDTA = [html.P("Bleeding Integrated Care Pathways :", className = "typograp
 
 
 app = JupyterDash(__name__,external_stylesheets = external_stylesheets) 
+server = app.server
 app.title = "NEAR by Y4A"
 
 #+======================================================================================================+
