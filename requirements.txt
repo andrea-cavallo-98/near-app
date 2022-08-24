@@ -6,3 +6,6 @@ sklearn
 matplotlib
 seaborn
 jupyter_dash
+statsmodels
+scipy
+skimage
