@@ -7,4 +7,3 @@ sklearn
 seaborn
 focal_loss
 fpdf
-tensorflow-cpu
