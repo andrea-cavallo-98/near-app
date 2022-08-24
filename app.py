@@ -336,13 +336,13 @@ with open('C:/Users/kkass/Desktop/Polimi/Laurea/ASP/ProjectApp/objects/y_pred_pr
     pickle.dump(y_pred_proba_test_death, handle, protocol=pickle.HIGHEST_PROTOCOL)
 '''
 # CHECKPOINT LOADER
-with open('C:/Users/kkass/Desktop/Polimi/Laurea/ASP/ProjectApp/objects/y_pred_proba_val_barc.pickle', 'rb') as handle:
+with open('./objects/y_pred_proba_val_barc.pickle', 'rb') as handle:
     y_pred_proba_val_barc = pickle.load(handle)
-with open('C:/Users/kkass/Desktop/Polimi/Laurea/ASP/ProjectApp/objects/y_pred_proba_val_death.pickle', 'rb') as handle:
+with open('./objects/y_pred_proba_val_death.pickle', 'rb') as handle:
     y_pred_proba_val_death = pickle.load(handle)
-with open('C:/Users/kkass/Desktop/Polimi/Laurea/ASP/ProjectApp/objects/y_pred_proba_test_barc.pickle', 'rb') as handle:
+with open('./objects/y_pred_proba_test_barc.pickle', 'rb') as handle:
     y_pred_proba_test_barc = pickle.load(handle)
-with open('C:/Users/kkass/Desktop/Polimi/Laurea/ASP/ProjectApp/objects/y_pred_proba_test_death.pickle', 'rb') as handle:
+with open('./objects/y_pred_proba_test_death.pickle', 'rb') as handle:
     y_pred_proba_test_death = pickle.load(handle)  
 #'''
 
@@ -703,18 +703,18 @@ with open('C:/Users/kkass/Desktop/Polimi/Laurea/ASP/ProjectApp/objects/shap_valu
 '''
 
 # CHECKPOINT LOADER
-with open('C:/Users/kkass/Desktop/Polimi/Laurea/ASP/ProjectApp/objects/background_death.pickle', 'rb') as handle:
+with open('./objects/background_death.pickle', 'rb') as handle:
     background_death = pickle.load(handle)
-with open('C:/Users/kkass/Desktop/Polimi/Laurea/ASP/ProjectApp/objects/baseline_death.pickle', 'rb') as handle:
+with open('./objects/baseline_death.pickle', 'rb') as handle:
     baseline_death = pickle.load(handle)
-with open('C:/Users/kkass/Desktop/Polimi/Laurea/ASP/ProjectApp/objects/shap_values_death.pickle', 'rb') as handle:
+with open('./objects/shap_values_death.pickle', 'rb') as handle:
     shap_values_death = pickle.load(handle)
 
-with open('C:/Users/kkass/Desktop/Polimi/Laurea/ASP/ProjectApp/objects/background_barc.pickle', 'rb') as handle:
+with open('./objects/background_barc.pickle', 'rb') as handle:
     background_barc = pickle.load(handle)
-with open('C:/Users/kkass/Desktop/Polimi/Laurea/ASP/ProjectApp/objects/baseline_barc.pickle', 'rb') as handle:
+with open('./objects/baseline_barc.pickle', 'rb') as handle:
     baseline_barc = pickle.load(handle)
-with open('C:/Users/kkass/Desktop/Polimi/Laurea/ASP/ProjectApp/objects/shap_values_barc.pickle', 'rb') as handle:
+with open('./objects/shap_values_barc.pickle', 'rb') as handle:
     shap_values_barc = pickle.load(handle)
 
 """## Feature Importance / Shap Dataset"""
