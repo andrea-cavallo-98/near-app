@@ -181,7 +181,7 @@ def f2(y_true, y_pred):
 """
 
 # PROJECT ROOT DEFINITION
-projectRoot = "C:/Users/kkass/Desktop/Polimi/Laurea/ASP/ProjectApp/"
+projectRoot = "./"
 
 #+------------------------------------------------------------------------------------------------------+
 #|                                           EVENT DEATH DATA                                           |
