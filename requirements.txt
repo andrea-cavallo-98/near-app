@@ -1,9 +1,2 @@
 gunicorn
 plotly
-shap
-numpy
-pandas
-sklearn
-seaborn
-focal_loss
-fpdf
