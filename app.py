@@ -48,7 +48,7 @@ from sklearn.metrics import confusion_matrix
 
 from sklearn import metrics
 
-import pickle5 as pickle
+import pickle
 
 from sklearn.metrics import accuracy_score, f1_score
 

@@ -5,4 +5,4 @@ pandas
 sklearn
 matplotlib
 seaborn
-pickle5
+jupyter_dash
