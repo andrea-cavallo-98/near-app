@@ -22,7 +22,6 @@ from math import floor, ceil
 import math
 from plotly.subplots import make_subplots
 
-import shap
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split

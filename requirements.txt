@@ -1,2 +1,8 @@
 gunicorn
 plotly
+numpy
+pandas
+sklearn
+matplotlib
+seaborn
+focal_loss
