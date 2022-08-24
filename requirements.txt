@@ -8,4 +8,3 @@ seaborn
 jupyter_dash
 statsmodels
 scipy
-skimage
