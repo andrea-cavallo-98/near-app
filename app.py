@@ -2495,13 +2495,13 @@ with open('C:/Users/kkass/Desktop/Polimi/Laurea/ASP/ProjectApp/images/NoDataFoun
     pickle.dump(img, handle, protocol=pickle.HIGHEST_PROTOCOL)
 '''
 # OPEN THE IMAGE
-with open('C:/Users/kkass/Desktop/Polimi/Laurea/ASP/ProjectApp/images/NoDataFound.pickle', 'rb') as handle:
+with open('./images/NoDataFound.pickle', 'rb') as handle:
     img = pickle.load(handle)
 
 app = JupyterDash(__name__,external_stylesheets = external_stylesheets) 
 server = app.server
 app.title = "NEAR by Y4A"
-## random change
+
 #+======================================================================================================+
 #|                                       ABOUT US AND ABOUT NEAR                                        |
 #+======================================================================================================+
