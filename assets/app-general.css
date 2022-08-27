@@ -1,27 +1,33 @@
 /* Scrollbar */
 #app-page-content ::-webkit-scrollbar {
-    width: 4px;
-    height: 4px;
-    background-color: #f6f6f6; /* Change in individual app stylesheet */
+    width: 5px;
+    height: 10px;
+    border-radius: 15px;
+    background-color: transparent; /* Change in individual app stylesheet */
+}
+
+#app-page-content ::-webkit-scrollbar-track {
+    border-radius: 15px;
 }
 
 #app-page-content ::-webkit-scrollbar-thumb {
-    width: 2px;
+    width: 5px;
+    height: 10px;
+    padding-top: 10px
     border-radius: 15px;
-    padding-right: 5px;
-    background-color: #3D4F58; /* Change in individual app stylesheet */
+    background-color: rgba(42, 0, 247, 0.5); /* Change in individual app stylesheet */
 }
 
 /*Markdown*/
 .markdown-style{
-border-left:5px solid #3D4F58;
+border-left:5px solid #5712FF;
 padding-left: 5px
 
 }
 
 /*Formula*/
 .formula-style{
-border-left: 5px solid #3D4F58;
+border-left: 5px solid #5712FF;
 padding-left: 5px
 font-size: 6rem; 
 line-height: 1.5;  
@@ -32,19 +38,19 @@ font-weight:400;
 
 /* Slider */
 .rc-slider-track {
-  background-color: #3D4F58;
+  background-image: linear-gradient(to right,#212123, #471BB2, #2A00F7, #5712FF);
 }
 
 
 .rc-slider-dot-active {  
-  border-color: #3D4F58;
-  border: solid 2px #3D4F58;
+  border-color: #5712FF;
+  border: solid 2px #5712FF;
 }
 
 
 .rc-slider-handle {
   background-color: #FFFFFF;
-  border-color: #3D4F58;
+  border-color: #5712FF;
 }
 
 
@@ -60,11 +66,12 @@ font-weight:400;
 
 
 .button {
+  border-radius: 10px;
 	text-align: center;
 	padding-left: 5px;
 	padding-right: 5px;
-	border: solid 1.5px #3D4F58;
-    color: #3D4F58;
+	border: solid 1.5px #5712FF;
+  color: #5712FF;
 
 }
 
