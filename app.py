@@ -2520,6 +2520,7 @@ with open('./images/NoDataFound.pickle', 'rb') as handle:
 
 app = JupyterDash(__name__,external_stylesheets = external_stylesheets) 
 app.title = "NEAR"
+server = app.server
 
 #+======================================================================================================+
 #|                                       ABOUT US AND ABOUT NEAR                                        |
