@@ -22,7 +22,6 @@ from math import floor, ceil
 import math
 from plotly.subplots import make_subplots
 
-import shap
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -50,8 +49,6 @@ from sklearn.metrics import confusion_matrix
 from sklearn import metrics
 
 import pickle 
-
-from focal_loss import BinaryFocalLoss
 
 from sklearn.metrics import accuracy_score, f1_score
 
